@@ -1,7 +1,7 @@
 # health&&(m)llms  
 # paper list
 
-This is a list of papers related to **health&&(m)llms**, including some of the latest papers. For each paper, I will write a brief summary of 2-3 sentences, along with my own interpretation.
+This is a list of papers related to **health&&(m)llms**, including some of the latest papers. For each paper, I will write a brief summary of 2-3 sentences, along with my own interpretation. 如果还没看到我的极简的概要感受，那么就是我还在读，先存档后面再写.
 
 ## 1. benchmark
 
@@ -15,15 +15,24 @@ This paper: 1.Constructs a benchmark for RAG in medical domain question answerin
 &nbsp;&nbsp;&nbsp;&nbsp;2.Also performs a common test by increasing the number of retrieved snippets and modifying the relative position of the corpus in the prompt to observe performance changes.
 
 ## 2. muti-modal
+### 2.1 *MEIT: Multi-Modal Electrocardiogram Instruction Tuning on Large Language Models for Report Generation* [link](https://arxiv.org/pdf/2403.04945)
 
-这一部分列出了一些在深度强化学习领域具有里程碑意义的论文。
 
-### 2.1 *Playing Atari with Deep Reinforcement Learning* by Volodymyr Mnih et al.  
-[点击阅读论文](https://arxiv.org/abs/1312.5602)  
-代码： [GitHub链接](https://github.com/openai/gym)  
-**解读**: 本文提出了通过深度强化学习解决Atari游戏中的策略问题，展示了AI在游戏中达到人类级别表现的可能性。对LLMs在多任务学习中的应用也具有启发性。
+## 3. rag
+RAG should be particularly useful in the medical domain, as medical knowledge is highly specialized, and models require more external knowledge. However, there are some issues, such as the quality of the retrieved corpora and how can we ensure that the model is able to understand these corpora? Additionally, the model's preference for different medical corpora may vary.
+### 3.1 (2025 Feb) *SearchRAG: Can Search Engines Be Helpful for LLM-based Medical Question Answering?* [link](https://arxiv.org/abs/2502.13233)
+this paper: 1. uses real-time engines effectively avoid the outdated drawbacks of static knowledge bases while also mitigates the challenges posed by the complexity of medical information.&nbsp;&nbsp;&nbsp;&nbsp;2.Leverages uncertainty filters out irrelevant information, significantly boosting performance.
 
-### 2.2 *Human-level control through deep reinforcement learning* by Mnih et al.  
-[点击阅读论文](https://www.nature.com/articles/nature14236)  
-代码： [GitHub链接](https://github.com/DeepMind/pyns)  
-**解读**: 这篇论文进一步深入探讨了深度强化学习如何实现人类水平的控制能力，并通过Q-learning算法提供了更为高效的策略优化方法。这为未来在更复杂任务中的应用提供了指导。
+## 4. agant
+The [EMNLP 2024 tutorial](https://language-agent-tutorial.github.io/) is very helpful to me, and I recommend it as a resource for learning about agents. At the same time, for complex tasks like medical question answering, models are prone to hallucinations, as the data, semantics, and model understanding can often be unclear. In such cases, agents can be quite useful.
+### 4.1  (2024 NeurIPS oral) *MDAgents: An Adaptive Collaboration of LLMs for Medical Decision-Making* [link](https://arxiv.org/pdf/2404.15155)
+This paper: 1. establishes a dynamic framework that selects either a single agent or a multi-agent collective for multi-round discussions based on the difficulty level of medical queries, ultimately reaching a conclusion. This approach simulates real-world medical decision-making processes. &nbsp;&nbsp;&nbsp;&nbsp;2. involves significant engineering effort and costs, as all agents use GPT-4, but the performance is impressive.
+
+## 5. supervised fine-tuning
+Actually, regular direct SFT (Supervised Fine-Tuning) can easily lead to "catastrophic forgetting" and overfitting. The generalization ability of SFT is certainly not as good as some methods that prefer it. SFT is generally considered a way to inject knowledge into the model. If SFT is to be applied, it should either mix specialized data and general knowledge data in a refined ratio, or use other very clever methods.
+### 5.1  (2025 Feb) *FineMedLM-o1: Enhancing the Medical Reasoning Ability of LLM from Supervised Fine-Tuning to Test-Time Training* [link](https://arxiv.org/pdf/2501.09213)
+
+## 6. reinforcement learning
+## 7. uncertainty
+### 7.1 (2025 Feb) Ask Patients with Patience: Enabling LLMs for Human-Centric Medical Dialogue with Grounded Reasoning [link](https://arxiv.org/pdf/2502.07143)
+
