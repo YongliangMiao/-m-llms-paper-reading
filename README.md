@@ -31,7 +31,7 @@ This paper: 1. establishes a dynamic framework that selects either a single agen
 ## 5. supervised fine-tuning
 Actually, regular direct SFT (Supervised Fine-Tuning) can easily lead to "catastrophic forgetting" and overfitting. The generalization ability of SFT is certainly not as good as some methods that prefer it. SFT is generally considered a way to inject knowledge into the model. If SFT is to be applied, it should either mix specialized data and general knowledge data in a refined ratio, or use other very clever methods.
 ### 5.1  (2025 Feb) *FineMedLM-o1: Enhancing the Medical Reasoning Ability of LLM from Supervised Fine-Tuning to Test-Time Training* [link](https://arxiv.org/pdf/2501.09213)
-
+### 5.2  (2024 COLM) *RAFT: Adapting Language Model to Domain Specific RAG* [link](https://arxiv.org/abs/2403.101313)
 ## 6. reinforcement learning,  preference-based optimization
 ### 6.1 (2025 Feb) *Aligning LLMs to Ask Good Questions A Case Study in Clinical Reasoning* [link](https://arxiv.org/abs/2502.14860)
 ## 7. uncertainty
