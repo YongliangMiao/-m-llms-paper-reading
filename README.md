@@ -22,7 +22,7 @@ This paper: 1.Constructs a benchmark for RAG in medical domain question answerin
 RAG should be particularly useful in the medical domain, as medical knowledge is highly specialized, and models require more external knowledge. However, there are some issues, such as the quality of the retrieved corpora and how can we ensure that the model is able to understand these corpora? Additionally, the model's preference for different medical corpora may vary.
 ### 3.1 (2025 Feb) *SearchRAG: Can Search Engines Be Helpful for LLM-based Medical Question Answering?* [link](https://arxiv.org/abs/2502.13233)
 this paper: 1. uses real-time engines effectively avoid the outdated drawbacks of static knowledge bases while also mitigates the challenges posed by the complexity of medical information.&nbsp;&nbsp;&nbsp;&nbsp;2.Leverages uncertainty filters out irrelevant information, significantly boosting performance.
-
+### 3.2 *Medical Graph RAG: Towards Safe Medical Large Language Model via Graph Retrieval-Augmented Generation*[link](https://arxiv.org/abs/2408.04187)
 ## 4. agant
 The [EMNLP 2024 tutorial](https://language-agent-tutorial.github.io/) is very helpful to me, and I recommend it as a resource for learning about agents. At the same time, for complex tasks like medical question answering, models are prone to hallucinations, as the data, semantics, and model understanding can often be unclear. In such cases, agents can be quite useful.
 ### 4.1  (2024 NeurIPS oral) *MDAgents: An Adaptive Collaboration of LLMs for Medical Decision-Making* [link](https://arxiv.org/pdf/2404.15155)
@@ -35,5 +35,5 @@ Actually, regular direct SFT (Supervised Fine-Tuning) can easily lead to "catast
 ## 6. reinforcement learning,  preference-based optimization
 ### 6.1 (2025 Feb) *Aligning LLMs to Ask Good Questions A Case Study in Clinical Reasoning* [link](https://arxiv.org/abs/2502.14860)
 ## 7. uncertainty
-### 7.1 (2025 Feb) Ask Patients with Patience: Enabling LLMs for Human-Centric Medical Dialogue with Grounded Reasoning [link](https://arxiv.org/pdf/2502.07143)
-
+### 7.1 (2025 Feb) *Ask Patients with Patience: Enabling LLMs for Human-Centric Medical Dialogue with Grounded Reasoning* [link](https://arxiv.org/pdf/2502.07143)
+### 7.2 (2025 Feb) *SearchRAG: Can Search Engines Be Helpful for LLM-based Medical Question Answering?* [link](https://arxiv.org/pdf/2502.13233)
