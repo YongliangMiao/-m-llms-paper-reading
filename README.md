@@ -29,7 +29,7 @@ The [EMNLP 2024 tutorial](https://language-agent-tutorial.github.io/) is very he
 This paper: 1. establishes a dynamic framework that selects either a single agent or a multi-agent collective for multi-round discussions based on the difficulty level of medical queries, ultimately reaching a conclusion. This approach simulates real-world medical decision-making processes. &nbsp;&nbsp;&nbsp;&nbsp;2. involves significant engineering effort and costs, as all agents use GPT-4, but the performance is impressive.
 
 ## 5. supervised fine-tuning
-Actually, regular direct SFT (Supervised Fine-Tuning) can easily lead to "catastrophic forgetting" and overfitting. The generalization ability of SFT is certainly not as good as RLHF. SFT is generally considered a way to inject knowledge into the model instead of improving robustness and logical thinking ability. If SFT is applied, it should either mix specialized data and general knowledge data in a refined ratio, or use other very clever methods.
+之前写错了改一改，一般来说直接在专业领域数据上面微调就可以提升模型这方面的能力，但是往往会让模型在别的领域上面表现下降. 有一个例外是cot输出微调，可能cot长思考数据上面sft之后也会表现下降. 长数据用dpo之类的技术可能会更好点. sft一般认为如果训练数据比较难的话，效果就会很差很容易出幻觉，而dpo之类的技术可能也会鼓励模型说一长串make sense apparently但是纯废话的情况. 我需要做更多的调研. 
 ### 5.1  (2025 Feb) *FineMedLM-o1: Enhancing the Medical Reasoning Ability of LLM from Supervised Fine-Tuning to Test-Time Training* [link](https://arxiv.org/pdf/2501.09213)
 ### 5.2  (2024 COLM) *RAFT: Adapting Language Model to Domain Specific RAG* [link](https://arxiv.org/abs/2403.101313)
 ## 6. reinforcement learning,  preference-based optimization
