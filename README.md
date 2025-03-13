@@ -37,6 +37,8 @@ This paper: 1. establishes a dynamic framework that selects either a single agen
 ## 7. uncertainty
 ### 7.1 (2025 Feb) *Ask Patients with Patience: Enabling LLMs for Human-Centric Medical Dialogue with Grounded Reasoning* [link](https://arxiv.org/pdf/2502.07143)
 ### 7.2 (2025 Feb) *SearchRAG: Can Search Engines Be Helpful for LLM-based Medical Question Answering?* [link](https://arxiv.org/pdf/2502.13233)
+### 7.3 (2024 deepmind) *To Believe or Not to Believe Your LLM* [link](https://arxiv.org/pdf/2406.02543)
+A solid method with extensive mathematical analysis; the first to simultaneously consider both epistemic and aleatoric uncertainties; derives an information-theoretic metric that enables reliable detection of cases where only epistemic uncertainty is high, indicating that the model's output is unreliable.
 
 ### 8 LLm as a judge
 可以参考一个repo [link](https://github.com/CSHaitao/Awesome-LLMs-as-Judges)
