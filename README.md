@@ -40,6 +40,7 @@ This paper: 1. establishes a dynamic framework that selects either a single agen
 same in 3.1.
 ### 7.3 (2024 deepmind) *To Believe or Not to Believe Your LLM* [link](https://arxiv.org/pdf/2406.02543)
 A solid method with extensive mathematical analysis; the first to simultaneously consider both epistemic and aleatoric uncertainties; derives an information-theoretic metric that enables reliable detection of cases where only epistemic uncertainty is high, indicating that the model's output is unreliable.
-
+### 7.4 (2025 Feb) *Understanding the Uncertainty of LLM Explanations: A Perspective Based on Reasoning Topology* [link](https://arxiv.org/abs/2502.17026)
+a novel way(topology) to quantify uncertainty. And focus on the reaseoning unvertainty, the field previous works have not explored yet. But precision of this method maybe limited? 
 ### 8 LLm as a judge
 可以参考一个repo [link](https://github.com/CSHaitao/Awesome-LLMs-as-Judges)
