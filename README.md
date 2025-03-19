@@ -1,4 +1,4 @@
-# health&&(m)llms  
+# (m)llms  
 # paper list
 
 This is a list of papers related to **(m)llms**, mainly including llm&&health, and some llm reasoning, interpretability. For each paper, I will write a brief summary of 2-3 sentences, along with my own interpretation. 如果还没看到我的概要读后感，那么就是我还在读，先存档后面再写.
