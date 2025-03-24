@@ -44,3 +44,6 @@ A solid method with extensive mathematical analysis; the first to simultaneously
 a novel way(topology) to quantify uncertainty. And focus on the reaseoning unvertainty, the field previous works have not explored yet. But precision of this method maybe limited? 
 ### 8 LLm as a judge
 可以参考一个repo [link](https://github.com/CSHaitao/Awesome-LLMs-as-Judges)
+
+### 9. time-scaling
+### 9.1 (2025 Mar.) *Efficient Test-Time Scaling via Self-Calibration* [link](https://arxiv.org/pdf/2503.00031)
