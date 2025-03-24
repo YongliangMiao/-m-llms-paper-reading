@@ -47,3 +47,4 @@ a novel way(topology) to quantify uncertainty. And focus on the reaseoning unver
 
 ### 9. time-scaling
 ### 9.1 (2025 Mar.) *Efficient Test-Time Scaling via Self-Calibration* [link](https://arxiv.org/pdf/2503.00031)
+This paper focused on self-calibration issue. Also a bit involved in time-scaling. Basically, it designed a (query,response,accurate confidence) dataset without human annotations but just by sampling, and trained the 3 small models on this dataset.
