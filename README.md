@@ -1,7 +1,7 @@
 # (m)llms  
 # paper list
 
-This is a list of papers related to **(m)llms**, mainly including llm&&health, and some llm reasoning, interpretability. For each paper, I will write a brief summary of 2-3 sentences, along with my own interpretation. 如果还没看到我的概要读后感，那么就是我还在读，先存档后面再写.
+This is a list of papers related to **(m)llms**, mainly including llm&&health, and some llm reasoning, interpretability. For each paper, I will write a brief summary of 2-3 sentences, along with my own interpretation. 
 
 ## 1. benchmark
 
@@ -45,8 +45,9 @@ a novel way(topology) to quantify uncertainty. And focus on the reaseoning unver
 ### 8 LLm as a judge
 可以参考一个repo [link](https://github.com/CSHaitao/Awesome-LLMs-as-Judges)
 
-### 9. time-scaling
-### 9.1 (2025 Mar.) *Efficient Test-Time Scaling via Self-Calibration* [link](https://arxiv.org/pdf/2503.00031)
+### 9. time-scaling, long reasonging
+### 9.1 (2025 Mar) *Efficient Test-Time Scaling via Self-Calibration* [link](https://arxiv.org/pdf/2503.00031)
 This paper focused on self-calibration issue. Also a bit involved in time-scaling. Basically, it designed a (query,response,accurate confidence) dataset without human annotations but just by sampling, and trained the 3 small models on this dataset.
-### 9.2 (2025 Mar.) *Entropy-based Exploration Conduction for Multi-step Reasoning* [link](https://arxiv.org/pdf/2503.15848)
+### 9.2 (2025 Mar) *Entropy-based Exploration Conduction for Multi-step Reasoning* [link](https://arxiv.org/pdf/2503.15848)
 A very interesting paper. Use entropy and variance entropy to decide reseaoning steps. Impressive.
+### 9.3 (2025 Mar) *Towards Reasoning Era: A Survey of Long Chain-of-Thought for Reasoning Large Language Models* [link](https://arxiv.org/pdf/2503.09567)
