@@ -45,7 +45,7 @@ a novel way(topology) to quantify uncertainty. And focus on the reaseoning unver
 ### 8 LLm as a judge
 可以参考一个repo [link](https://github.com/CSHaitao/Awesome-LLMs-as-Judges)
 
-### 9. time-scaling, long reasonging
+### 9. time-scaling, long reasonging, process reward
 ### 9.1 (2025 Mar) *Efficient Test-Time Scaling via Self-Calibration* [link](https://arxiv.org/pdf/2503.00031)
 This paper focused on self-calibration issue. Also a bit involved in time-scaling. Basically, it designed a (query,response,accurate confidence) dataset without human annotations but just by sampling, and trained the 3 small models on this dataset.
 ### 9.2 (2025 Mar) *Entropy-based Exploration Conduction for Multi-step Reasoning* [link](https://arxiv.org/pdf/2503.15848)
