@@ -1,7 +1,7 @@
 # (m)llms  
 # paper list
 
-This is a list of papers related to **(m)llms**, mainly including llm&&health, and some llm reasoning, interpretability. For each paper, I will write a brief summary of 2-3 sentences, along with my own interpretation. 
+This is a list of papers related to **(m)llms**, mainly including llm, health, and some llm reasoning, interpretability. For each paper, I will write a brief summary of 2-3 sentences, along with my own interpretation. 
 
 ## 1. benchmark
 
