@@ -51,3 +51,7 @@ This paper focused on self-calibration issue. Also a bit involved in time-scalin
 ### 9.2 (2025 Mar) *Entropy-based Exploration Conduction for Multi-step Reasoning* [link](https://arxiv.org/pdf/2503.15848)
 A very interesting paper. Use entropy and variance entropy to decide reseaoning steps. Impressive.
 ### 9.3 (2025 Mar) *Towards Reasoning Era: A Survey of Long Chain-of-Thought for Reasoning Large Language Models* [link](https://arxiv.org/pdf/2503.09567)
+### 9.4 (2025 Mar) *L1: Controlling How Long A Reasoning Model Thinks With Reinforcement Learning* [link](https://www.arxiv.org/pdf/2503.04697)
+a bit trivial.
+### 9.5(2025 Mar)*Understanding R1-Zero-Like Training: A Critical Perspective* [link](https://arxiv.org/abs/2503.20783)
+simple change to grpo fomula but valid.
