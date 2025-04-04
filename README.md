@@ -33,6 +33,8 @@ This paper: 1. establishes a dynamic framework that selects either a single agen
 ### 5.2  (2024 COLM) *RAFT: Adapting Language Model to Domain Specific RAG* [link](https://arxiv.org/abs/2403.101313)
 ## 6. Alignment,  preference-based optimization
 ### 6.1 (2025 Feb) *Aligning LLMs to Ask Good Questions A Case Study in Clinical Reasoning* [link](https://arxiv.org/abs/2502.14860)
+### 6.2 (deepseek) *DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning* [link](https://arxiv.org/abs/2501.12948)
+game-changing. 
 ## 7. uncertainty
 ### 7.1 (2025 Feb) *Ask Patients with Patience: Enabling LLMs for Human-Centric Medical Dialogue with Grounded Reasoning* [link](https://arxiv.org/pdf/2502.07143)
 ### 7.2 (2025 Feb) *SearchRAG: Can Search Engines Be Helpful for LLM-based Medical Question Answering?* [link](https://arxiv.org/pdf/2502.13233)
