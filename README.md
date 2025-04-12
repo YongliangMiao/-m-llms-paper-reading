@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/fabbdf76-10fc-4153-b1ab-3689d6084c75)
 # (m)LLMs Paper List
 
 ## Table of Contents
@@ -12,6 +12,7 @@
 - [8. Uncertainty](#8-uncertainty)
 - [9. LLMs as Judges](#9-llms-as-judges)
 - [10. Time-scaling & Long Reasoning](#10-time-scaling--long-reasoning)
+- [11. Latent space reasoning]
 ## 1. Introduction
 
 This is a curated list of papers related to large language models (LLMs), with a particular focus on applications in healthcare, reasoning, and interpretability. For each paper, I provide a brief summary of 2-3 sentences along with my personal interpretation. only show the high quality and latest papers. 
@@ -103,3 +104,15 @@ Simple but valid change to the GPTO formula.
 ### 10.6 DAPO: An Open-Source LLM Reinforcement Learning System at Scale
 **seed March 2025**  | [Paper Link](https://arxiv.org/pdf/2503.14476)
 see analysis at [link](https://zhuanlan.zhihu.com/p/31157035727).
+
+## 11. Latent space reasoning
+### 11.1 Training Large Language Models to Reason in a Continuous Latent Space
+**Yuandong Tian Nov 2024** | [Paper Link](https://arxiv.org/abs/2412.06769)
+solved the problem of training in latent space reasoning. But not in a solid way:
+1. It's like someone starting a conversation in the middle of their sentence. If you're going to talk like that, at least think through the first part before you speak. The training method in this paper causes the missing reasoning steps in the CoT answer to lose important info.
+2.Low Data quality：only 6 steps cot data, bad comparison with 10-100 steps training data 
+
+### 11.2 CODI: Compressing Chain-of-Thought into Continuous Space via Self-Distillation
+**Mar 2025** | [Paper Link](https://arxiv.org/pdf/2502.21074)
+solved the issue of thorough way to train latent space, but the prompt for training is fixed.
+
