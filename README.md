@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/fabbdf76-10fc-4153-b1ab-3689d6084c75)
+
 # (m)LLMs Paper List
 
 ## Table of Contents
