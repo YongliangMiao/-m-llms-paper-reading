@@ -36,8 +36,10 @@ This paper:
 1. Uses real-time search engines to effectively avoid the outdated drawbacks of static knowledge bases while also mitigating the challenges posed by the complexity of medical information.
 2. Leverages uncertainty to filter out irrelevant information, significantly boosting performance.
 
-### 4.2 Medical Graph RAG: Towards Safe Medical Large Language Model via Graph Retrieval-Augmented Generation
-[Paper Link](https://arxiv.org/abs/2408.04187)
+### 4.2 Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning 
+**Apr 2025** | [Paper Link](https://arxiv.org/pdf/2503.09516)
+
+This shows that RL+rule-based output reward+mask loss (masking out tool results with no gradient backprop) is a viable approach.
 
 ## 5. Agent Systems
 
