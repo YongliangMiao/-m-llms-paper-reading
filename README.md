@@ -105,6 +105,11 @@ Simple but valid change to the GPTO formula.
 **seed March 2025**  | [Paper Link](https://arxiv.org/pdf/2503.14476)
 see analysis at [link](https://zhuanlan.zhihu.com/p/31157035727).
 
+### 10.7 AgentRM: Enhancing Agent Generalization with Reward Modeling
+**March 2025**  | [Paper Link](https://arxiv.org/pdf/2502.18407)
+
+It's less about a fresh idea and more solid engineering: they used MCTS to grind out a reward model that scores super precisely, setting it up for RL training on the policy.
+
 ## 11. Latent space reasoning
 ### 11.1 Training Large Language Models to Reason in a Continuous Latent Space
 **Yuandong Tian Nov 2024** | [Paper Link](https://arxiv.org/abs/2412.06769)
