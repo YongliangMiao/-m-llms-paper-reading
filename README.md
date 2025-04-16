@@ -50,6 +50,9 @@ This paper:
 1. Establishes a dynamic framework that selects either a single agent or a multi-agent collective for multi-round discussions based on the difficulty level of medical queries, ultimately reaching a conclusion. This approach simulates real-world medical decision-making processes.
 2. Involves significant engineering effort and costs, as all agents use GPT-4, but the performance is impressive.
 
+### 5.2 Synthetic Data Generation & Multi-Step RL for Reasoning & Tool Use
+**2025 Apr** | [Paper Link](https://arxiv.org/pdf/2504.04736)
+First work(maybe?) use rl to process learning.
 ## 6. Supervised Fine-tuning
 
 ### 6.1 RAFT: Adapting Language Model to Domain Specific RAG
