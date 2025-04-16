@@ -52,7 +52,7 @@ This paper:
 
 ### 5.2 Synthetic Data Generation & Multi-Step RL for Reasoning & Tool Use
 **2025 Apr** | [Paper Link](https://arxiv.org/pdf/2504.04736)
-First work(maybe?) use rl to process learning.
+One of the first batch work(maybe?) to use rl to process learning.
 ## 6. Supervised Fine-tuning
 
 ### 6.1 RAFT: Adapting Language Model to Domain Specific RAG
