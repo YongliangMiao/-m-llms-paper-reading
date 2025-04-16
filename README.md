@@ -75,6 +75,11 @@ A solid method with extensive mathematical analysis; the first to simultaneously
 
 A novel way (topology) to quantify uncertainty. Focuses on reasoning uncertainty, an area previous works have not explored yet. However, the precision of this method may be limited.
 
+### 8.4 Reasoning Models Don’t Always Say What They Think
+**Apr 3, 2025, Alignment Science Team, Anthropic** | [paper link](https://assets.anthropic.com/m/71876fabef0f0ed4/original/reasoning_models_paper.pdf)
+
+This paper unveils the unfaithfulness of LLMs’ chain-of-thought (CoT) reasoning, a finding that is particularly significant given the current prevalence of rule-based RL methods. One sentence from the paper: “We do not require the model to verbalize literally everything, but a faithful CoT should highlight the key decision factors and reasoning chains that would enable us to predict how it would process similar inputs during deployment. For example, if a sycophantic model bases its prediction on a user’s suggestion, it should verbalize sycophancy.”
+
 ## 9. LLMs as Judges
 
 For reference, see this repository: [Awesome-LLMs-as-Judges](https://github.com/CSHaitao/Awesome-LLMs-as-Judges)
