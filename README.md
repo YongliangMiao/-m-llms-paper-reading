@@ -58,6 +58,9 @@ One of the first batch work(maybe?) to use rl to process learning.
 ### 6.1 RAFT: Adapting Language Model to Domain Specific RAG
 **COLM 2024** | [Paper Link](https://arxiv.org/abs/2403.101313)
 
+### 6.2 LIMO: Less is More for Reasoning
+**SJTU, SII, GAIR 2025 Feb 2**  | [Paper Link](https://arxiv.org/pdf/2502.03387)
+
 ## 7. Alignment & Preference-based Optimization
 
 you can see that in section 10. Time-scaling & Long Reasoning.
