@@ -61,6 +61,7 @@ One of the first batch work(maybe?) to use rl to process learning.
 ### 6.2 LIMO: Less is More for Reasoning
 **SJTU, SII, GAIR 2025 Feb 2**  | [Paper Link](https://arxiv.org/pdf/2502.03387)
 
+1.高质量的数据哪怕sft也能放大原有模型的能力，不仅仅是rl. 这点可能还是很震撼的，打破现在大多研究观点，sft只能记忆；sft会破坏推理的观点   2. Less is more，数据distillation等等
 ## 7. Alignment & Preference-based Optimization
 
 you can see that in section 10. Time-scaling & Long Reasoning.
