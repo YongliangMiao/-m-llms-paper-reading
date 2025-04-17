@@ -15,7 +15,7 @@
 - [11. Latent space reasoning](#11-latent-space-reasoning)
 ## 1. Introduction
 
-This is a curated list of papers related to large language models (LLMs), with a particular focus on applications in healthcare, reasoning, and interpretability. For each paper, I provide a brief summary of 2-3 sentences along with my personal interpretation. only show the high quality and latest papers. 
+This is a curated list of papers related to large language models (LLMs), with a particular focus on applications in reasoning and interpretability. For each paper, I provide a brief summary of 2-3 sentences along with my personal interpretation. only show the high quality and latest papers. 
 
 ## 2. Benchmarks
 
