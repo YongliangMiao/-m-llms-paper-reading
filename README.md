@@ -140,4 +140,6 @@ solved the issue of thorough way to train latent space, but the prompt for train
 ### 12 data, solution space
 
 [Paper Link](https://arxiv.org/pdf/2504.13837) Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?
-rl, pass 1, pass k.
+RL 可以高效筛选去学到的推理路径，总体来说还是不错的方案，但可能缺乏探索性。
+
+蒸馏大模型知识可能学的最快，也能学到新东西，但需要依赖更大的模型教学。
