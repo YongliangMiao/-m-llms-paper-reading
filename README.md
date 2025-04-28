@@ -137,3 +137,7 @@ solved the problem of training in latent space reasoning. But not in a solid way
 
 solved the issue of thorough way to train latent space, but the prompt for training is fixed.
 
+### 12 data, solution space
+
+[Paper Link](https://arxiv.org/pdf/2504.13837) Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?
+rl, pass 1, pass k.
