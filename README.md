@@ -124,6 +124,10 @@ see analysis at [link](https://zhuanlan.zhihu.com/p/31157035727).
 
 It's less about a fresh idea and more solid engineering: they used MCTS to grind out a reward model that scores super precisely, setting it up for RL training on the policy.
 
+### 10.8 UNLOCKING EFFICIENT LONG-TO-SHORT LLM REASONING WITH MODEL MERGING
+**May 2025**  | [Paper Link](https://arxiv.org/pdf/2503.20641)
+Model merging methods applied to 1.5B-scale models, such as TA, Ties-Merging and Sens-Merging, remain effective on simple tasks. Smaller models struggle to learn long CoT reasoning ability through model merging. ////The merging of large-scale models poses significant challenges in simultaneously maintaining reasoning performance while substantially reducing response length. The substantial performance gaps between the merging models likely contribute to this difficulty
+
 ## 11. Latent space reasoning
 ### 11.1 Training Large Language Models to Reason in a Continuous Latent Space
 **Yuandong Tian Nov 2024** | [Paper Link](https://arxiv.org/abs/2412.06769)
