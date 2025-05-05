@@ -58,10 +58,7 @@ One of the first batch work(maybe?) to use rl to process learning.
 ### 6.1 RAFT: Adapting Language Model to Domain Specific RAG
 **COLM 2024** | [Paper Link](https://arxiv.org/abs/2403.101313)
 
-### 6.2 LIMO: Less is More for Reasoning
-**SJTU, SII, GAIR 2025 Feb 2**  | [Paper Link](https://arxiv.org/pdf/2502.03387)
 
-1.高质量的数据哪怕sft也能放大原有模型的能力，不仅仅是rl. 这点可能还是很震撼的，打破现在大多研究观点，sft只能记忆；sft会破坏推理的观点   2. Less is more，数据distillation等等
 ## 7. Alignment & Preference-based Optimization
 
 you can see that in section 10. Time-scaling & Long Reasoning.
@@ -142,8 +139,13 @@ solved the problem of training in latent space reasoning. But not in a solid way
 solved the issue of thorough way to train latent space, but the prompt for training is fixed.
 
 ### 12 data, solution space
-
-[Paper Link](https://arxiv.org/pdf/2504.13837) Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?
+### 12.1 Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?
+[Paper Link](https://arxiv.org/pdf/2504.13837) 
 RL 可以高效筛选去学到的推理路径，总体来说还是不错的方案，但可能缺乏探索性。
 
 蒸馏大模型知识可能学的最快，也能学到新东西，但需要依赖更大的模型教学。
+
+### 12.2 LIMO: Less is More for Reasoning
+**SJTU, SII, GAIR 2025 Feb 2**  | [Paper Link](https://arxiv.org/pdf/2502.03387)
+
+1.高质量的数据哪怕sft也能放大原有模型的能力，不仅仅是rl. 这点可能还是很震撼的，打破现在大多研究观点，sft只能记忆；sft会破坏推理的观点   2. Less is more，数据distillation等等    类似的还有: [s1](https://arxiv.org/pdf/2501.19393)
